@@ -8,6 +8,7 @@ class App extends Component {
     this.state= {
       todos: [],
       task: '',
+      edit: '',
     }
   }
 
@@ -27,6 +28,15 @@ class App extends Component {
     })
 
   }
+
+  editTodo(value,i) {
+    let todo = this.state.todos
+    todo[i]= value
+    this.setState({
+     todos:todo
+   })
+  }
+  
   render() {
     return (
       <div className="App">
@@ -34,8 +44,11 @@ class App extends Component {
         <input onChange={(e)=> this.setState({task:e.target.value})} type="text" />
         {this.state.todos.map((todo,i)=>
         <div key={i}>
-          <p>{todo} <button onClick={()=>this.deleteTodo(i)}>X</button></p>
-          
+          <p onClick={()=> this.setState({edit:i})}>{todo} <button onClick={()=>this.deleteTodo(i)}>X</button></p>
+          {(this.state.edit === i)
+          ? <input onChange={(e)=> this.editTodo(e.target.value,i)} type="text" />
+          : null
+          }
         </div>
         )}
         
