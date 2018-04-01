@@ -1,59 +1,42 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Route, Switch} from 'react-router-dom'
+
 import './App.css';
+
+import Home from './Home'
+import About from './About'
+import Products from './Products'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 class App extends Component {
   constructor(props) {
     super(props)
     this.state= {
-      todos: [],
-      task: '',
-      edit: '',
     }
   }
-
-  addTodo() {
-    let todo = this.state.todos;
-    todo.push(this.state.task);
-    this.setState({
-      todos:todo
-    })
-  }
-
-  deleteTodo(i) {
-    let todo = this.state.todos;
-    todo.splice(i,1);
-    this.setState({
-      todos:todo
-    })
-
-  }
-
-  editTodo(value,i) {
-    let todo = this.state.todos
-    todo[i]= value
-    this.setState({
-     todos:todo
-   })
-  }
-  
   render() {
     return (
-      <div className="App">
-        <h1> To do tes </h1>
-        <input onChange={(e)=> this.setState({task:e.target.value})} type="text" />
-        {this.state.todos.map((todo,i)=>
-        <div key={i}>
-          <p onClick={()=> this.setState({edit:i})}>{todo} <button onClick={()=>this.deleteTodo(i)}>X</button></p>
-          {(this.state.edit === i)
-          ? <input onChange={(e)=> this.editTodo(e.target.value,i)} type="text" />
-          : null
-          }
-        </div>
-        )}
-        
-        <button onClick={()=> this.addTodo()}>Add to do</button>
+      <BrowserRouter>
+        <div>
+          <Navbar />
+          <Switch>
+          <Route
+            exact path="/"
+            component={Home}
+          />
+          <Route
+            exact path="/about"
+            component={About}
+          />
+          <Route
+            exact path="/products"
+            component={Products}
+          />
+        </Switch>
+        <Footer />
       </div>
+      </BrowserRouter>
     );
   }
 }
