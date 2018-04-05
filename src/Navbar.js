@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 class Navbar extends Component {
   constructor(props) {
@@ -21,9 +21,9 @@ class Navbar extends Component {
           </div>
         <div className="collapse navbar-collapse" id="bs-megadropdown-tabs">
           <ul className="nav navbar-nav">
-            <li className="active"><a href="index.html" className="act">Home</a></li>
-            <li className="dropdown">
-              <Link to="/products" className="dropdown-toggle" data-toggle="dropdown">Products <b className="caret"></b></Link>
+            <li><Link to="/">Home</Link></li>
+            <li className="dropdown active">
+            <Link to="/products" className="dropdown-toggle act" data-toggle="dropdown">Products <b className="caret"></b></Link>
               <ul className="dropdown-menu multi-column columns-3">
                 <div className="row">
                   <div className="col-sm-4">
@@ -101,11 +101,11 @@ class Navbar extends Component {
               </ul>
             </li>
             <li><a href="short-codes.html">Short Codes</a></li>
-            <li><Link to="/about">About</Link></li>
+            <li><a href="/about">About</a></li>
           </ul>
         </div>
         </nav>
-      </div>
+        </div>
       </div>
     )
   }

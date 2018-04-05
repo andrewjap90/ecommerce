@@ -34,7 +34,7 @@ render() {
   			</div>
   			<div className="logo-nav">
   				<div className="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-  					<h1><a href="index.html">Best Store <span>Shop Free</span></a></h1>
+  					<h1><Link to= "/">Best Store <span>Shop Free</span></Link></h1>
   				</div>
 
 

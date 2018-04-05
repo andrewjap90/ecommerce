@@ -15,124 +15,19 @@ render() {
 		<div className="container">
 			<div className="header-grid">
 				<div className="header-grid-left animated wow slideInLeft" data-wow-delay=".5s">
-					<ul>
-						<li><i className="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">@example.com</a></li>
-						<li><i className="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 <span>567</span> 892</li>
-						<li><i className="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="login.html">Login</a></li>
-						<li><i className="glyphicon glyphicon-book" aria-hidden="true"></i><a href="register.html">Register</a></li>
-					</ul>
+
 				</div>
 				<div className="header-grid-right animated wow slideInRight" data-wow-delay=".5s">
-					<ul className="social-icons">
-						<li><a href="#" className="facebook"></a></li>
-						<li><a href="#" className="twitter"></a></li>
-						<li><a href="#" className="g"></a></li>
-						<li><a href="#" className="instagram"></a></li>
-					</ul>
+
 				</div>
 				<div className="clearfix"> </div>
 			</div>
 			<div className="logo-nav">
 				<div className="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-					<h1><a href="index.html">Best Store <span>Shop anywhere</span></a></h1>
+					<h1><Link to="/">Best Store <span>Shop anywhere</span></Link></h1>
 				</div>
-				<div className="logo-nav-left1">
-					<nav className="navbar navbar-default">
-					<div className="navbar-header nav_2">
-						<button type="button" className="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
-							<span className="sr-only">Toggle navigation</span>
-							<span className="icon-bar"></span>
-							<span className="icon-bar"></span>
-							<span className="icon-bar"></span>
-						</button>
-					</div>
-					<div className="collapse navbar-collapse" id="bs-megadropdown-tabs">
-						<ul className="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
-							 <li className="dropdown active">
-								<Link to="/products" className="dropdown-toggle act" data-toggle="dropdown">Products <b className="caret"></b></Link>
-								<ul className="dropdown-menu multi-column columns-3">
-									<div className="row">
-										<div className="col-sm-4">
-											<ul className="multi-column-dropdown">
-												<h6>Men's Wear</h6>
-												<li><a href="products.html">Clothing</a></li>
-												<li><a href="products.html">Wallets</a></li>
-												<li><a href="products.html">Shoes</a></li>
-												<li><a href="products.html">Watches</a></li>
-												<li><a href="products.html">Accessories</a></li>
-											</ul>
-										</div>
-										<div className="col-sm-4">
-											<ul className="multi-column-dropdown">
-												<h6>Women's Wear</h6>
-												<li><a href="products.html">Clothing</a></li>
-												<li><a href="products.html">Wallets,Bags</a></li>
-												<li><a href="products.html">Footwear</a></li>
-												<li><a href="products.html">Watches</a></li>
-												<li><a href="products.html">Accessories</a></li>
-												<li><a href="products.html">Jewellery</a></li>
-												<li><a href="products.html">Beauty & Grooming</a></li>
-											</ul>
-										</div>
-										<div className="col-sm-4">
-											<ul className="multi-column-dropdown">
-												<h6>Kid's Wear</h6>
-												<li><a href="products.html">Kids Home Fashion</a></li>
-												<li><a href="products.html">Boy's Clothing</a></li>
-												<li><a href="products.html">Girl's Clothing</a></li>
-												<li><a href="products.html">Shoes</a></li>
-												<li><a href="products.html">Brand Stores</a></li>
-											</ul>
-										</div>
-										<div className="clearfix"></div>
-									</div>
-								</ul>
-							</li>
-							<li className="dropdown">
-								<a href="#" className="dropdown-toggle" data-toggle="dropdown">Furniture <b className="caret"></b></a>
-								<ul className="dropdown-menu multi-column columns-3">
-									<div className="row">
-										<div className="col-sm-4">
-											<ul className="multi-column-dropdown">
-												<h6>Home Collection</h6>
-												<li><a href="furniture.html">Cookware</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-												<li><a href="furniture.html">Dining Tables</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Home Decor</a></li>
-											</ul>
-										</div>
-										<div className="col-sm-4">
-											<ul className="multi-column-dropdown">
-												<h6>Office Collection</h6>
-												<li><a href="furniture.html">Carpets</a></li>
-												<li><a href="furniture.html">Tables</a></li>
-												<li><a href="furniture.html">Sofas</a></li>
-												<li><a href="furniture.html">Shoe Racks</a></li>
-												<li><a href="furniture.html">Sockets</a></li>
-												<li><a href="furniture.html">Electrical Machines</a></li>
-											</ul>
-										</div>
-										<div className="col-sm-4">
-											<ul className="multi-column-dropdown">
-												<h6>Decorations</h6>
-												<li><a href="furniture.html">Toys</a></li>
-												<li><a href="furniture.html">Wall Clock</a></li>
-												<li><a href="furniture.html">Lighting</a></li>
-												<li><a href="furniture.html">Top Brands</a></li>
-											</ul>
-										</div>
-										<div className="clearfix"></div>
-									</div>
-								</ul>
-							</li>
-							<li><a href="short-codes.html">Short Codes</a></li>
-							<li><a href="mail.html">Mail Us</a></li>
-						</ul>
-					</div>
-					</nav>
-				</div>
+
+
 				<div className="logo-nav-right">
 					<div className="search-box">
 						<div id="sb-search" className="sb-search">
@@ -158,12 +53,11 @@ render() {
 				</div>
 				<div className="clearfix"> </div>
 			</div>
-		</div>
-	</div>
-	<div className="breadcrumbs">
-		<div className="container">
+      <div>
+	    <div className="breadcrumbs">
+		  <div className="container">
 			<ol className="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-				<li><a href="index.html"><span className="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+				<li><Link to="/"><span className="glyphicon glyphicon-home" aria-hidden="true"></span>Home</Link></li>
 				<li className="active">Products</li>
 			</ol>
 		</div>
@@ -183,24 +77,24 @@ render() {
 				<div className="categories animated wow slideInUp" data-wow-delay=".5s">
 					<h3>Categories</h3>
 					<ul className="cate">
-						<li><a href="products.html">Best Selling</a> <span>(15)</span></li>
-						<li><a href="products.html">Man</a> <span>(16)</span></li>
+						<li><Link to="/products">Best Selling</Link> <span>(15)</span></li>
+						<li><Link to="/products">Man</Link> <span>(16)</span></li>
 							<ul>
-								<li><a href="products.html">Accessories</a> <span>(2)</span></li>
-								<li><a href="products.html">Coats & Jackets</a> <span>(5)</span></li>
-								<li><a href="products.html">Jeans</a> <span>(1)</span></li>
-								<li><a href="products.html">New Arrivals</a> <span>(0)</span></li>
-								<li><a href="products.html">Suits</a> <span>(1)</span></li>
-								<li><a href="products.html">Casual Shirts</a> <span>(0)</span></li>
+								<li><Link to="/products">Accessories</Link> <span>(2)</span></li>
+								<li><Link to="/products">Coats & Jackets</Link> <span>(5)</span></li>
+								<li><Link to="/products">Jeans</Link> <span>(1)</span></li>
+								<li><Link to="/products">New Arrivals</Link> <span>(0)</span></li>
+								<li><Link to="/products">Suits</Link> <span>(1)</span></li>
+								<li><Link to="/products">Casual Shirts</Link> <span>(0)</span></li>
 							</ul>
-						<li><a href="products.html">Sales</a> <span>(15)</span></li>
-						<li><a href="products.html">Woman</a> <span>(15)</span></li>
+						<li><Link to="/products">Sales</Link> <span>(15)</span></li>
+						<li><Link to="/products">Woman</Link> <span>(15)</span></li>
 							<ul>
-								<li><a href="products.html">Accessories</a> <span>(2)</span></li>
-								<li><a href="products.html">New Arrivals</a> <span>(0)</span></li>
-								<li><a href="products.html">Dresses</a> <span>(1)</span></li>
-								<li><a href="products.html">Casual Shirts</a> <span>(0)</span></li>
-								<li><a href="products.html">Shorts</a> <span>(4)</span></li>
+								<li><Link to="/products">Accessories</Link> <span>(2)</span></li>
+								<li><Link to="/products">New Arrivals</Link> <span>(0)</span></li>
+								<li><Link to="/products">Dresses</Link> <span>(1)</span></li>
+								<li><Link to="/products">Casual Shirts</Link> <span>(0)</span></li>
+								<li><Link to="/products">Shorts</Link> <span>(4)</span></li>
 							</ul>
 					</ul>
 				</div>
@@ -667,97 +561,11 @@ render() {
 			<div className="clearfix"> </div>
 		</div>
 	</div>
-
-	<div className="footer">
-		<div className="container">
-			<div className="footer-grids">
-				<div className="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".5s">
-					<h3>About Us</h3>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse.<span>Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit.</span></p>
-				</div>
-				<div className="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".6s">
-					<h3>Contact Info</h3>
-					<ul>
-						<li><i className="glyphicon glyphicon-map-marker" aria-hidden="true"></i>1234k Avenue, 4th block, <span>New York City.</span></li>
-						<li><i className="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">info@example.com</a></li>
-						<li><i className="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 567</li>
-					</ul>
-				</div>
-				<div className="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".7s">
-					<h3>Flickr Posts</h3>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/13.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/14.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/15.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/16.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/13.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/14.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/15.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/16.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/13.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/14.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/15.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="footer-grid-left">
-						<a href="single.html"><img src="images/16.jpg" alt=" " className="img-responsive" /></a>
-					</div>
-					<div className="clearfix"> </div>
-				</div>
-				<div className="col-md-3 footer-grid animated wow slideInLeft" data-wow-delay=".8s">
-					<h3>Blog Posts</h3>
-					<div className="footer-grid-sub-grids">
-						<div className="footer-grid-sub-grid-left">
-							<a href="single.html"><img src="images/9.jpg" alt=" " className="img-responsive" /></a>
-						</div>
-						<div className="footer-grid-sub-grid-right">
-							<h4><a href="single.html">culpa qui officia deserunt</a></h4>
-							<p>Posted On 25/3/2016</p>
-						</div>
-						<div className="clearfix"> </div>
-					</div>
-					<div className="footer-grid-sub-grids">
-						<div className="footer-grid-sub-grid-left">
-							<a href="single.html"><img src="images/10.jpg" alt=" " className="img-responsive" /></a>
-						</div>
-						<div className="footer-grid-sub-grid-right">
-							<h4><a href="single.html">Quis autem vel eum iure</a></h4>
-							<p>Posted On 25/3/2016</p>
-						</div>
-						<div className="clearfix"> </div>
-					</div>
-				</div>
-				<div className="clearfix"> </div>
-			</div>
-			<div className="footer-logo animated wow slideInUp" data-wow-delay=".5s">
-				<h2><a href="index.html">Best Store <span>shop anywhere</span></a></h2>
-			</div>
-			<div className="copy-right animated wow slideInUp" data-wow-delay=".5s">
-				<p>&copy 2016 Best Store. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-			</div>
-		</div>
-	</div>
 </div>
+</div>
+</div>
+</div>
+
     )
   }
 }
