@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
+import Item from './components/Item'
 
 class Home extends Component {
   constructor(props){
@@ -14,14 +15,6 @@ render() {
     <div className="header">
   		<div className="container">
   			<div className="header-grid">
-  				<div className="header-grid-left animated wow slideInLeft" data-wow-delay=".5s">
-  					<ul>
-  						<li><i className="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">@example.com</a></li>
-  						<li><i className="glyphicon glyphicon-earphone" aria-hidden="true"></i>+1234 567 892</li>
-  						<li><i className="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="login.html">Login</a></li>
-  						<li><i className="glyphicon glyphicon-book" aria-hidden="true"></i><a href="register.html">Register</a></li>
-  					</ul>
-  				</div>
   				<div className="header-grid-right animated wow slideInRight" data-wow-delay=".5s">
   					<ul className="social-icons">
   						<li><a href="#" className="facebook"></a></li>
@@ -30,11 +23,11 @@ render() {
   						<li><a href="#" className="instagram"></a></li>
   					</ul>
   				</div>
-  				<div className="clearfix"> </div>
+  				<div className="clearfix"></div>
   			</div>
   			<div className="logo-nav">
   				<div className="logo-nav-left animated wow zoomIn" data-wow-delay=".5s">
-  					<h1><Link to= "/">Best Store <span>Shop Free</span></Link></h1>
+  					<h1><Link to= "/">Best Store <span> Freedom Shop </span></Link></h1>
   				</div>
 
 
@@ -63,96 +56,9 @@ render() {
   			</div>
   		</div>
   	</div>
-  	<div className="banner">
-  		<div className="container">
-  			<div className="banner-info animated wow zoomIn" data-wow-delay=".5s">
-  				<h3>Free Online Shopping</h3>
-  				<h4>Up to <span>50% <i>Off/-</i></span></h4>
-  				<div className="wmuSlider example1">
-  					<div className="wmuSliderWrapper">
-  						<article>
-  							<div className="banner-wrap">
-  								<div className="banner-info1">
-  									<p>T-Shirts + Formal Pants + Jewellery + Cosmetics</p>
-  								</div>
-  							</div>
-  						</article>
-  						<article >
-  							<div className="banner-wrap">
-  								<div className="banner-info1">
-  									<p>Toys + Furniture + Lighting + Watches</p>
-  								</div>
-  							</div>
-  						</article>
-  						<article >
-  							<div className="banner-wrap">
-  								<div className="banner-info1">
-  									<p>Tops + Books & Media + Sports</p>
-  								</div>
-  							</div>
-  						</article>
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-  	<div className="banner-bottom">
-  		<div className="container">
-  			<div className="banner-bottom-grids">
-  				<div className="banner-bottom-grid-left animated wow slideInLeft" data-wow-delay=".5s">
-  					<div className="grid">
-  						<figure className="effect-julia">
-  							<img src="images/4.jpg" alt=" " className="img-responsive" />
-  							<figcaption>
-  								<h3>Best <span>Store</span><i> in online shopping</i></h3>
-  								<div>
-  									<p>Cupidatat non proident, sunt</p>
-  									<p>Officia deserunt mollit anim</p>
-  									<p>Laboris nisi ut aliquip consequat</p>
-  								</div>
-  							</figcaption>
-  						</figure>
-  					</div>
-  				</div>
-  				<div className="banner-bottom-grid-left1 animated wow slideInUp" data-wow-delay=".5s">
-  					<div className="banner-bottom-grid-left-grid left1-grid grid-left-grid1">
-  						<div className="banner-bottom-grid-left-grid1">
-  							<img src="images/1.jpg" alt=" " className="img-responsive" />
-  						</div>
-  						<div className="banner-bottom-grid-left1-pos">
-  							<p>Discount 45%</p>
-  						</div>
-  					</div>
-  					<div className="banner-bottom-grid-left-grid left1-grid grid-left-grid1">
-  						<div className="banner-bottom-grid-left-grid1">
-  							<img src="images/2.jpg" alt=" " className="img-responsive" />
-  						</div>
-  						<div className="banner-bottom-grid-left1-position">
-  							<div className="banner-bottom-grid-left1-pos1">
-  								<p>Latest New Collections</p>
-  							</div>
-  						</div>
-  					</div>
-  				</div>
-  				<div className="banner-bottom-grid-right animated wow slideInRight" data-wow-delay=".5s">
-  					<div className="banner-bottom-grid-left-grid grid-left-grid1">
-  						<div className="banner-bottom-grid-left-grid1">
-  							<img src="images/3.jpg" alt=" " className="img-responsive" />
-  						</div>
-  						<div className="grid-left-grid1-pos">
-  							<p>top and classNameic designs <span>2016 Collection</span></p>
-  						</div>
-  					</div>
-  				</div>
-  				<div className="clearfix"> </div>
-  			</div>
-  		</div>
-  	</div>
   	<div className="new-collections">
   		<div className="container">
   			<h3 className="animated wow zoomIn" data-wow-delay=".5s">New Collections</h3>
-  			<p className="est animated wow zoomIn" data-wow-delay=".5s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-  				deserunt mollit anim id est laborum.</p>
   			<div className="new-collections-grids">
   				<div className="col-md-3 new-collections-grid">
   					<div className="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">

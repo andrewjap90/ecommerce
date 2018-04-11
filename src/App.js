@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import { Provider } from 'react-redux'
 import { BrowserRouter, Route, Switch} from 'react-router-dom'
 
+import store from './store'
 import './App.css';
 
 import Home from './Home'
@@ -17,6 +19,7 @@ class App extends Component {
   }
   render() {
     return (
+      <Provider store={store}>
       <BrowserRouter>
         <div>
           <Navbar />
@@ -37,6 +40,7 @@ class App extends Component {
         <Footer />
       </div>
       </BrowserRouter>
+    </Provider>
     );
   }
 }

@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import {connect} from 'react-redux';
+
+import {assignInput} from './actions'
 
 class Navbar extends Component {
   constructor(props) {
     super(props)
     this.state={}
   }
+
+
+
   render(){
     return(
       <div>
@@ -110,4 +116,16 @@ class Navbar extends Component {
     )
   }
 }
-export default Navbar
+
+const  mapStateToProps = (state) => {
+  return {
+
+  }
+}
+const mapDispatchToProps = (dispatch) => {
+  return {
+    assignInput: (input) => dispatch(assignInput(input))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps) (Navbar)
