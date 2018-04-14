@@ -68,44 +68,6 @@ class Navbar extends Component {
                 </div>
               </ul>
             </li>
-            <li className="dropdown">
-              <a href="#" className="dropdown-toggle" data-toggle="dropdown">Furniture <b className="caret"></b></a>
-              <ul className="dropdown-menu multi-column columns-3">
-                <div className="row">
-                  <div className="col-sm-4">
-                    <ul className="multi-column-dropdown">
-                      <h6>Home Collection</h6>
-                      <li><a href="furniture.html">Cookware</a></li>
-                      <li><a href="furniture.html">Sofas</a></li>
-                      <li><a href="furniture.html">Dining Tables</a></li>
-                      <li><a href="furniture.html">Shoe Racks</a></li>
-                      <li><a href="furniture.html">Home Decor</a></li>
-                    </ul>
-                  </div>
-                  <div className="col-sm-4">
-                    <ul className="multi-column-dropdown">
-                      <h6>Office Collection</h6>
-                      <li><a href="furniture.html">Carpets</a></li>
-                      <li><a href="furniture.html">Tables</a></li>
-                      <li><a href="furniture.html">Sofas</a></li>
-                      <li><a href="furniture.html">Shoe Racks</a></li>
-                      <li><a href="furniture.html">Sockets</a></li>
-                      <li><a href="furniture.html">Electrical Machines</a></li>
-                    </ul>
-                  </div>
-                  <div className="col-sm-4">
-                    <ul className="multi-column-dropdown">
-                      <h6>Decorations</h6>
-                      <li><a href="furniture.html">Toys</a></li>
-                      <li><a href="furniture.html">Wall Clock</a></li>
-                      <li><a href="furniture.html">Lighting</a></li>
-                      <li><a href="furniture.html">Top Brands</a></li>
-                    </ul>
-                  </div>
-                  <div className="clearfix"></div>
-                </div>
-              </ul>
-            </li>
             <li><a href="short-codes.html">Short Codes</a></li>
             <li><a href="/about">About</a></li>
           </ul>

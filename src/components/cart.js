@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-var cart = [];
+import { deleteCart } from '../actions'
 
 class Cart extends Component {
   constructor(props) {
@@ -17,6 +17,7 @@ class Cart extends Component {
               <p>Name: {c.name}</p>
               <p>price: {c.price}</p>
               <img src={c.image} />
+              <button className="btn btn-danger" onClick={()=> this.props.deleteCart(this.props.cart, index)}>X</button>
           </div>
         ))}
       </div>
@@ -25,16 +26,14 @@ class Cart extends Component {
 }
 
 const mapStateToProps = (state) => {
-  cart.push(state.cart)
   return {
-    input: state.input,
     cart: state.cart
   }
 }
 
 const mapDispatchToProps = (dispatch) => {
   return {
-
+    deleteCart: (cart, index) => dispatch(deleteCart(cart, index))
   }
 }
 

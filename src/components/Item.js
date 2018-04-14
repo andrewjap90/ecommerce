@@ -5,7 +5,7 @@ import {connect} from 'react-rdux'
 import {addToCart} from '../actions'
 
 
-var dummy =[
+var dummy = [
   {
     name: 'kaos animasi',
     price: 150000,

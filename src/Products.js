@@ -73,30 +73,11 @@ render() {
         <div className="col-md-3 new-collections-grid">
           <div className="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
             <div className="new-collections-grid1-image">
-              <a href="single.html" className="product-image"><img src="images/7.jpg" alt=" " className="img-responsive" /></a>
+              <a href="single.html" className="product-image"><img src="https://image.spreadshirtmedia.com/image-server/v1/mp/products/P1007525971MPC1012697857/views/1,width=378,height=378,appearanceId=1,backgroundColor=E8E8E8,version=1485256808/dont-be-that-guy-men-s-t-shirt.jpg" alt=" " className="img-responsive" /></a>
               <div className="new-collections-grid1-image-pos">
                 <a href="single.html">Quick View</a>
               </div>
-              <div className="new-collections-grid1-right">
-                <div className="rating">
-                  <div className="rating-left">
-                    <img src="images/2.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/2.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/2.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/1.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/1.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="clearfix"> </div>
-                </div>
-              </div>
+
             </div>
             <h4><a href="single.html">Formal Shirt</a></h4>
             <p>Vel illum qui dolorem eum fugiat.</p>
@@ -106,30 +87,11 @@ render() {
           </div>
           <div className="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
             <div className="new-collections-grid1-image">
-              <a href="single.html" className="product-image"><img src="images/8.jpg" alt=" " className="img-responsive" /></a>
+              <a href="single.html" className="product-image"><img src="https://rumahjersey.co.id/wp-content/uploads/2014/09/Adidas-Manchester-United-Home-Jersey-17-18-393x505.jpg" alt=" " className="img-responsive" /></a>
               <div className="new-collections-grid1-image-pos">
                 <a href="single.html">Quick View</a>
               </div>
-              <div className="new-collections-grid1-right">
-                <div className="rating">
-                  <div className="rating-left">
-                    <img src="images/2.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/2.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/1.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/1.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/1.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="clearfix"> </div>
-                </div>
-              </div>
+            
             </div>
             <h4><a href="single.html">Running Shoes</a></h4>
             <p>Vel illum qui dolorem eum fugiat.</p>
@@ -139,47 +101,12 @@ render() {
           </div>
         </div>
         <div className="col-md-6 new-collections-grid">
-          <div className="new-collections-grid1 new-collections-grid1-image-width animated wow slideInUp" data-wow-delay=".5s">
-            <div className="new-collections-grid1-image">
-              <a href="single.html" className="product-image"><img src="images/5.jpg" alt=" " className="img-responsive" /></a>
-              <div className="new-collections-grid1-image-pos new-collections-grid1-image-pos1">
-                <a href="single.html">Quick View</a>
-              </div>
-              <div className="new-collections-grid1-right new-collections-grid1-right-rate">
-                <div className="rating">
-                  <div className="rating-left">
-                    <img src="images/2.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/2.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/2.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/2.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="rating-left">
-                    <img src="images/1.png" alt=" " className="img-responsive" />
-                  </div>
-                  <div className="clearfix"> </div>
-                </div>
-              </div>
-              <div className="new-one">
-                <p>New</p>
-              </div>
-            </div>
-            <h4><a href="single.html">Dining Table</a></h4>
-            <p>Vel illum qui dolorem eum fugiat.</p>
-            <div className="new-collections-grid1-left simpleCart_shelfItem">
-              <p><i>$580</i> <span className="item_price">$550</span><a className="item_add" href="#">add to cart </a></p>
-            </div>
-          </div>
+
           <div className="new-collections-grid-sub-grids">
             <div className="new-collections-grid1-sub">
               <div className="new-collections-grid1 animated wow slideInUp" data-wow-delay=".5s">
                 <div className="new-collections-grid1-image">
-                  <a href="single.html" className="product-image"><img src="images/6.jpg" alt=" " className="img-responsive" /></a>
+                  <a href="single.html" className="product-image"><img src="https://s4.bukalapak.com/img/45107881/large/a-bathing-ape-bape-ape-star-t-shirt-1-600x600.JPG" alt=" " className="img-responsive" /></a>
                   <div className="new-collections-grid1-image-pos">
                     <a href="single.html">Quick View</a>
                   </div>
