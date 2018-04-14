@@ -4,19 +4,23 @@
   "private": true,
   "homepage": "https://andrewjap90.github.io/onlineshop/",
   "dependencies": {
+    "currency-formatter": "^1.4.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-rdux": "0.0.1",
+    "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1"
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "save": "^2.3.2"
   },
   "scripts": {
-    "deploy" : "npm run build&&gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "gh-pages": "^1.1.0"
   }
+
 }
